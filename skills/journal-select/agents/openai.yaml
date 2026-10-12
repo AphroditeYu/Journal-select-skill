@@ -1,0 +1,6 @@
+interface:
+  display_name: "论文选刊助手"
+  short_description: "依据论文与作者约束比较期刊，核验收录、费用和政策并给出有据可查的投稿顺序"
+  default_prompt: "使用 $journal-select，根据我的题目、摘要与发表要求筛选期刊，核验官方信息并给出投稿顺序。"
+policy:
+  allow_implicit_invocation: true
