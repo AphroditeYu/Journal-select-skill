@@ -18,21 +18,6 @@
 
 没有实时风险库或付费数据库连接时，Skill 会披露查询缺口。它不会假装调用不存在的数据库，也不会默认开启后台监测。
 
-## 仓库结构
-
-```text
-skills/journal-select/
-  SKILL.md
-  agents/openai.yaml
-  references/evidence.md
-  references/selection.md
-  references/risk-audit.md
-  references/compliance.md
-  references/timeline.md
-  references/acceptance-cases.md
-  assets/report-template.md
-```
-
 ## 安装到 Codex
 
 把 `skills/journal-select` 整个文件夹复制到自己的 `$CODEX_HOME/skills/`；未设置 `CODEX_HOME` 时通常为 `~/.codex/skills/`。安装后的入口应是 `skills/journal-select/SKILL.md`，不要再多嵌套一层仓库目录。重新打开会话使环境发现新 Skill。
