@@ -21,7 +21,7 @@
 ## 安装到 Codex
 先安装并登录 Codex，然后在对话框发送：
 ```text
-请帮我从https://github.com/AphroditeYu/Journal-select-skill 仓库根目录安装Journal-select-skill。
+请帮我从https://github.com/AphroditeYu/Journal-select-skill 仓库安装Journal-select-skill。
 ```
 
 该 Skill 使用可用的网页检索工具；没有联网能力时只能提供暂定建议和待核实清单。数据库订阅、付费访问及机构目录不会由 Skill 自动获得。无需配置 API 密钥或运行专用脚本。
